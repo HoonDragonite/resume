@@ -78,7 +78,7 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Visual Studio',
-    }
+    },
   ],
 };
 

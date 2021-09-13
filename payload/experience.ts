@@ -15,7 +15,7 @@ const experience: IExperience.Payload = {
         '전산 라이센스 관리',
       ],
       skillKeywords: ['Sql Server', 'MySql', 'Java', 'Spring MVC', 'HTML/CSS'],
-    }
+    },
   ],
 };
 
