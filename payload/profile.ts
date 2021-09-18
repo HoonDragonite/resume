@@ -1,5 +1,5 @@
 import { faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faComment } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
@@ -46,8 +46,8 @@ const profile: IProfile.Payload = {
     */
   ],
   notice: {
-    title: '이메일로 연락 부탁드립니다.',
-    icon: faBell,
+    title: 'No pain, no gain.',
+    icon: faComment,
   },
 };
 
