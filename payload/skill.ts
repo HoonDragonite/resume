@@ -26,12 +26,12 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
-      title: 'Sql Server',
+      title: 'SQL Server',
       level: 3,
     },
     {
-      title: 'MySql',
-      level: 3,
+      title: 'MySQL',
+      level: 2,
     },
     {
       title: 'Redis',
@@ -62,7 +62,7 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Git',
+      title: 'Github',
     },
     {
       title: 'eXERD',
@@ -71,13 +71,13 @@ const etc: ISkill.Skill = {
       title: 'Trello',
     },
     {
-      title: 'Ms Sql',
+      title: 'SQL Server',
     },
     {
-      title: 'Heidi Sql',
+      title: 'InteliJ',
     },
     {
-      title: 'Visual Studio',
+      title: 'Notion',
     },
   ],
 };

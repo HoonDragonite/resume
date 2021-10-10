@@ -3,3 +3,11 @@
 
 ## Template 출처
 <a href="https://github.com/uyu423/resume-nextjs" target="_blank">resume-nextjs</a>
+
+### Run
+
+    npm run dev
+
+### Export
+
+    npm run export

@@ -9,12 +9,8 @@ const experience: IExperience.Payload = {
       position: '전산팀',
       startedAt: '2019-08',
       endedAt: '2021-09',
-      descriptions: [
-        'ERP/MES 고도화, Troubleshooting',
-        '전산 장비(PC, 서버), 홈페이지/그룹웨어 관리',
-        '전산 라이센스 관리',
-      ],
-      skillKeywords: ['Sql Server', 'MySql', 'Java', 'Spring MVC', 'HTML/CSS'],
+      descriptions: ['ERP 고도화', '전산 장비/시스템/라이센스 관리, 운영', '전산 관련 Issue 처리'],
+      skillKeywords: ['Sql Server', 'ERP', 'MES', 'Java', 'Spring'],
     },
   ],
 };
