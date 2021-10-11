@@ -4,6 +4,10 @@
 ## Template 출처
 <a href="https://github.com/uyu423/resume-nextjs" target="_blank">resume-nextjs</a>
 
+### Init
+
+    npm install
+
 ### Run
 
     npm run dev

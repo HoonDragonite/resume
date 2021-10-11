@@ -27,8 +27,8 @@ const profile: IProfile.Payload = {
     },
     */
     {
-      title: 'https://github.com/HoonDragonite',
-      link: 'https://github.com/HoonDragonite',
+      title: 'https://github.com/KingPiggy',
+      link: 'https://github.com/KingPiggy',
       icon: faGithub,
     },
     {
