@@ -8,8 +8,39 @@ const project: IProject.Payload = {
       startedAt: '2021-09',
       where: '개인 프로젝트',
       descriptions: [
-        { content: 'AWS 환경의 Spring Boot 프로젝트에서 트래픽 분산처리를 학습하기 위한 프로젝트' },
-        { content: 'JPA, MariaDB, CI/CD, Redis, nginx' },
+        {
+          content: '소개',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'AWS 클라우드 환경의 Spring Boot 프로젝트로 대용량 트래픽 분산처리를 학습하기 위한 프로젝트',
+            },
+          ],
+        },
+        {
+          content: '기여한 것',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'JPA 기반 웹 어플리케이션 개발' },
+            { content: 'JUnit5를 사용하여 주요 기능에 대한 테스트 코드 작성' },
+            { content: 'nginx를 이용한 2개의 App으로 로드밸런싱' },
+            { content: 'Code Push시 App 서비스 2개에 무중단 자동 배포 CI/CD 환경 구축' },
+          ],
+        },
+        {
+          content: '기술스택',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Spring Boot 2.5.0' },
+            { content: 'Java 11' },
+            { content: 'JPA' },
+            { content: 'JUnit5' },
+            { content: 'AWS EC2, AWS S3, AWS CodeDeploy, nginx' },
+            { content: 'AWS RDS(MariaDB), AWS ElasticSearch(Redis Cache)' },
+            { content: 'Travis CI, Github, ERWin' },
+          ],
+        },
       ],
     },
     {
